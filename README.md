@@ -1,9 +1,11 @@
 # Image to ASCII Converter
 
 ## Description
+
 This project converts an image into an ASCII representation using Python. It processes an input image, enhances its contrast, optionally sharpens it, and maps pixel intensity to ASCII characters to generate a text-based representation of the image.
 
 ## Features
+
 - Converts any image into ASCII art
 - Adjustable output width
 - Configurable contrast enhancement
@@ -31,7 +33,9 @@ python image_to_ascii.py
 By default, the script uses `./as.png` as the input image. Modify `image_path` in the script to use a different image.
 
 ### Parameters
+
 The `image_to_ascii` function accepts the following optional parameters:
+
 - `width` (int): Width of the ASCII output in characters (default: `100`)
 - `scale_factor` (float): Adjusts height-to-width ratio (default: `0.55`)
 - `contrast` (float): Contrast enhancement factor (default: `1.5`)
@@ -45,10 +49,14 @@ ascii_art = image_to_ascii("image.png", width=120, contrast=2.0, sharpen=False, 
 ```
 
 ## Output
+
 The generated ASCII art will be printed to the terminal and saved in `output.txt` in the project directory.
 
 ## License
+
 This project is licensed under the MIT License.
 
 ## Author
+
 9Obsidyen
+
